@@ -51,4 +51,7 @@ git clone (克隆远程仓库的内容)
 git log (find bran)
 git pull origin master --allow-unrelated-histories
 git pull origin master(拉取远程修改)
-
+git branch --list
+git branch master (创建分支)
+git checkout master
+断开连接：git remote remove 
