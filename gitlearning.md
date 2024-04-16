@@ -38,3 +38,17 @@ cd 创造文件
 ls  list directory contents
 cat file1.txt 读取文件中的内容
 ```
+## git 连接远程仓库
+```bash
+git remote add origin(仓库名字，一般是origin) <地址>
+git remote (查看连接的远程仓库名字)
+git remote rename origin asdf(修改名字)
+git push origin(远程仓库的名字) master(本地分支) 
+git clone (克隆远程仓库的内容)
+```
+## 分支
+```bash
+git log (find bran)
+git pull origin master --allow-unrelated-histories
+git pull origin master(拉取远程修改)
+
